@@ -1,0 +1,158 @@
+body
+{
+	background-image: url("../images/2783704.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed
+}
+label
+{
+	font-weight: 600;
+}
+.box-one
+{
+	margin-top: 20px;
+	border-radius: 25px;
+	background-color: #ffffff;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-two
+{
+	margin-top: 50px;
+	border-radius: 25px;
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title
+{
+	font-family: 'Righteous', cursive;
+	color: #01a7fd;
+	text-align: center;
+	font-size: 40px;
+	border-bottom: 1px solid #cccccc;
+	margin-top: 15px;
+}
+label{
+	color: #2D2D2D;
+	font-weight: 300;
+}
+.btn-secondary
+{
+	background-color: #01a7fd;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 50px;
+	border-color: #01a7fd;
+}
+.btn-secondary:hover
+{
+	background-color: #0093fa;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 50px;
+	border-color: #0093fa;
+}
+#city{
+	text-align:center;
+}
+#icon{
+	text-align:center;
+}
+#image{
+	text-align:center;	
+}
+
+#title-city
+{
+	color: #01a7fd;
+	font-size: 18px;
+	margin-top: 12px;
+}
+#title-day
+{
+	color: #01a7fd;
+	font-size: 30px;
+	margin-top: 12px;
+	font-weight: 300;
+	text-transform: uppercase;	
+}
+#title-time
+{
+	color: #01a7fd;
+	font-size: 18px;
+	margin-top: 12px;	
+}
+#title-timezone
+{
+	color: #01a7fd;
+	font-size: 18px;
+	margin-top: -25px;	
+}
+#value-time
+{
+	color: #01a7fd;
+	font-size: 30px;
+	margin-top: -20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Righteous', cursive;	
+}
+#date-day
+{
+	color: #01a7fd;
+	font-size: 25px;
+	margin-top: 12px;
+	font-family: 'Righteous', cursive;
+	margin-top: -26px;
+	
+}
+#name-city
+{
+    color: #01a7fd;
+	font-size: 35px;
+	margin-top: -20px;
+	font-family: 'Righteous', cursive;
+}
+
+#value-temp
+{
+	color: #01a7fd;
+	font-size: 50px;
+	margin-top: -20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Righteous', cursive;	
+}
+#value-feel
+{
+	color: #01a7fd;
+	font-size: 18px;
+	margin-top: 12px;
+}
+#title-temp
+{
+	color: #01a7fd;
+	font-size: 18px;
+	margin-top: 12px;
+}
+#title-weather
+{
+	color: #01a7fd;
+	font-size: 18px;
+	margin-top: 12px;
+}
+#weather
+{
+	color: #01a7fd;
+	font-size: 22px;
+	margin-top: 0px;
+	font-weight: 300;
+	font-family: 'Righteous', cursive;	
+}
+img
+{
+  width:130px;
+  height:110px;
+  margin-top: 20px;
+}

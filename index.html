@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>API Current weather Display</title>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 offset-md-2 box-two">
+			<div class="row">
+				<div class="col-md-4" id="city">
+				     <p id="title-city"></p>
+					 <h3 id="name-city"></h3>
+					 <p id="title-day"></p>
+					 <p id="date-day"></p>
+				</div>
+				<div class="col-md-5" id="icon">
+					<p id="title-temp"></p>
+					<p id="value-temp"></p>
+					<p id="title-time"></p>
+					<p id="value-time"></p>
+					<p id="title-timezone"></p>
+					
+				</div>
+				<div class="col-md-3" id="image">
+					<p id="title-weather"></p>
+					<p id="weather"></p>
+					<p id="value-feel"></p>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">	
+		<div class="col-md-4 offset-md-4 box-one">
+		</br>
+			<h2 class="title">Weather App&nbsp;<i class="fas fa-cloud"></i></h2>
+			<label>Type in Your ZIPCODE to get weather :</label>
+		    </br>
+			<input style="height: 50px; border-radius: 40px;" type="number" class="form-control" id="zipcode" maxlength="10" 
+			placeholder="Has to be a 5 digit number">
+			<button type="button" id="zipweather" class="btn btn-secondary btn-lg" style="font-weight: 400; font-size: 16px;">GET WEATHER</button>		
+		</br></br>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4 offset-md-4">
+			<p style="text-align: center; color:#ffffff; margin-top: 10px;">Copyright &copy; Nicolas - WIN PROGRAM 2020</p>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="node_modules/moment/moment.js"></script>
+<script type="text/javascript" src="https://momentjs.com/downloads/moment-timezone-with-data.js"></script>
+<script type="text/javascript" src="bundle.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+
+</body>
+</html>

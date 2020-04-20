@@ -1,0 +1,17 @@
+{
+  "name": "currentweatherapp",
+  "version": "1.0.0",
+  "description": "get current weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Nicolas Tientcheu",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "zipcodes": "^8.0.0"
+  }
+}
