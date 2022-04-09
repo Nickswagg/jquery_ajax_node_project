@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "browserify": "^16.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.28",
     "zipcodes": "^8.0.0"
   }
